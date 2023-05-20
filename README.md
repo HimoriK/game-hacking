@@ -9,9 +9,9 @@
 # [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking/)
 ***A curated list of tools, tutorials, and much more for reverse engineering video games!***
 
-### Game Hacking Tools (Disassemblers, Debuggers, Hex Editors, Unpackers, and More)
+### Game Hacking Tools (Disassemblers, Debuggers, Hex Editors, Unpackers, etc)
 
-Tool/Link | Description
+Link | Description
 ---- | ----
 [Cheat Engine](https://github.com/cheat-engine/cheat-engine) | [Open Source] *A powerful, all-in-one game hacking tool with an extensive feature set. Varying versions for Mac, Linux, and Android can be found [here](http://www.cheatengine.org/downloads.php). CE video tutorials [here](https://www.youtube.com/playlist?list=PLNffuWEygffbbT9Vz-Y1NXQxv2m6mrmHr).*
 [PINCE](https://github.com/korcankaraokcu/PINCE) | [Open Source] *A front-end/reverse engineering tool for the GNU Project Debugger ([GDB](https://www.gnu.org/software/gdb/)), focused on games. It's essentially a work-in-progress Cheat Engine for Linux/MacOS.*
@@ -40,7 +40,7 @@ Tool/Link | Description
 [PSR (Pointer Sequence Reverser)](https://github.com/nccgroup/psr/) | [Open Source] *Traces instructions executed prior to reading/writing from/to the provided address of a data member or object, then highlights relevant instructions, identifies vtable pointers, and more. Relevant whitepaper [here](https://www.nccgroup.trust/us/our-research/automated-reverse-engineering-of-relationships-between-data-structures-in-c-binaries/?research=Whitepapers).*
 [XenoScan](https://github.com/nickcano/XenoScan) | [Open Source] *Lua scriptable memory scanner written in C++. Supports complex scanning, custom structures, and automatic detection of complex structures (linked lists, binary tress, class instances, etc). Expandable with support for emulators. DEFCON Slides [here](https://github.com/nickcano/XenoScanSlides).*
 
-### Libraries, Frameworks, Plugins/Add-ons/Extensions, Etc.
+### Libraries
 
 Title/Link | Description
 ---- | ----
@@ -68,9 +68,9 @@ Title/Link | Description
 [ReShade](https://github.com/crosire/reshade) | An advanced, fully generic post-processing injector for games and video software. Contains a wealth of information for how to intercept DX/OpenGL APIs and inject custom code (e.g. call your own code at present time when a frame is rendered).
 [Injectable Generic Camera System](https://github.com/FransBouma/InjectableGenericCameraSystem) | Used for creating custom camera tools in games. Also contains small tools, like a custom DLL injector to bypass Windows Defender detection.
 
-### Interesting Repositories, Trainer and Custom Tool Source Code, Etc.
+### Extra
 
-Title/Link | Description
+Link | Description
 ---- | ----
 [makin](https://github.com/secrary/makin) | A tool to help reveal which debugger detection techniques a game is using.
 [JRemapper](https://github.com/Col-E/JRemapper) | An easy-to-use GUI for remapping classes, methods, and fields of compiled java programs. Useful with games like Minecraft!
@@ -80,9 +80,9 @@ Title/Link | Description
 [xortool](https://github.com/hellman/xortool) | A tool to analyze multi-byte xor cipher and guess key length (based on count of equal chars) and key (based on knowledge of most frequent char).
 [GameTutorials](https://github.com/gametutorials/tutorials) | An expansive list of game development tutorials in multiple langauges. Heavy on source code and even inclusive of Win32 examples (which is an amazing resource if developing Win32 game trainers is of interest to you). Archive of accompanying site [here](http://web.archive.org/web/20150330082829/http://www.gametutorials.com:80/).
 
-### General Information
+### General Info
 
-Title/Link | Description
+Link | Description
 ---- | ----
 [EFF FAQ on Reverse Engineering Legalities](https://www.eff.org/issues/coders/reverse-engineering-faq) | This FAQ details information that may help reverse engineers reduce their legal risk. *Use this information as a guide, not actual legal advice.*
 
@@ -105,7 +105,7 @@ Title/Link | Description
 [Riot's Approach to Anti-Cheat](https://engineering.riotgames.com/news/riots-approach-anti-cheat) | A high-level glimpse into some of the ways Riot approaches anti-cheat.
 [Hacking Minesweeper: Programmatically Place Flags on Mined Blocks](https://www.begin.re/hacking-minesweeper) | The final challenge on [begin.re](https://begin.re), this tutorial uses IDA Pro and OllyDbg to demonstrate reversing via static and dynamic analysis.
 
-### Interesting/Educational Forum Discussions
+### Forum Discussions
 
 Title/Link | Description
 ---- | ----
@@ -131,7 +131,7 @@ Title/Link | Description
 
 ### Books
 
-Title/Link | Description
+Link | Description
 ---- | ----
 [Game Hacking](https://www.nostarch.com/gamehacking) | *Game Hacking* shows programmers how to dissect computer games and create bots.
 [Attacking Network Protocols](https://www.nostarch.com/networkprotocols) | *Attacking Network Protocols* is a deep-dive into network vulnerability discovery.
@@ -139,9 +139,9 @@ Title/Link | Description
 [Exploiting Online Games: Cheating Massively Distributed Systems](https://www.amazon.com/Exploiting-Online-Games-Massively-Distributed/dp/0132271915/) | This book takes a close look at security problems associated with advanced, massively distributed software in relation to video games.
 [Game Programming Patterns](https://github.com/munificent/game-programming-patterns) | A collection of game patterns that make code cleaner, easier to understand, and faster. A great reference for seeing forward engineering representations of what you discover while reverse engineering games!
 
-### Game Hacking Sites/Forums/Etc.
+### Game Hacking Sites
 
-Title/Link | Description
+Link | Description
 ---- | ----
 [Cheat Engine Forum (CEF)](http://forum.cheatengine.org/) | The official forum for Cheat Engine.
 [FearLess Cheat Engine](http://fearlessrevolution.com/) | Cheat Engine cheat tables, discussions, and tutorials for game hacking.
@@ -151,9 +151,9 @@ Title/Link | Description
 [ElitePVPers](https://www.elitepvpers.com/) | Discussion of MMO hacks, bots, cheats, guides and more.
 [OwnedCore](http://www.ownedcore.com/) | An MMO gaming community for guides, exploits, trading, hacks, model editing, emulation servers, programs, bots and more.
 
-### Open Source and Safe-to-Hack Games
+### Open Source Games
 
-Title/Link | Description
+Link | Description
 ---- | ----
 [Pwn Adventure Z](https://github.com/Vector35/PwnAdventureZ) | An NES zombie survival game made to be hacked.
 [Pwn Adventure 2](http://ghostintheshellcode.com/#pwnadventure2) | A custom 3D MMOFPS based on the Unity game engine. The game includes several quests that are only solvable by modifying the game client.
