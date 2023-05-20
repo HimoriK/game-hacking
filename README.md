@@ -1,12 +1,4 @@
-<div align="center">
-  <a href="https://guidedhacking.com/?utm_source=dsasmblr">
-    <img src="https://raw.githubusercontent.com/dsasmblr/hacking-online-games/master/resources/guidedhacking-hero.png" />
-  </a>
-  <br>
-  <span align="center"><a href="https://guidedhacking.com/?utm_source=dsasmblr">This repo is sponsored by GuidedHacking.com!</a></span>
-</div>
-
-# [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking/)
+## [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking/)
 A curated list of tools, tutorials, and more for reverse engineering video games!
 
 ### Game Hacking Tools (Disassemblers, Debuggers, Hex Editors, Unpackers, etc)
