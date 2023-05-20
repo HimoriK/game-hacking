@@ -14,10 +14,7 @@
 Tool Type | Tool/Link | Description
 ---- | ---- | ----
 **All-In-One** | [Cheat Engine](https://github.com/cheat-engine/cheat-engine) | [Open Source] *A powerful, all-in-one game hacking tool with an extensive feature set. Varying versions for Mac, Linux, and Android can be found [here](http://www.cheatengine.org/downloads.php). CE video tutorials [here](https://www.youtube.com/playlist?list=PLNffuWEygffbbT9Vz-Y1NXQxv2m6mrmHr).*
-**All-In-One** | [Squalr](https://github.com/Squalr/Squalr) | [Open Source] *A performant game hacking tool developed in C# with features that both rival and complement Cheat Engine.*
-**All-In-One** | [CrySearch](http://www.crysearch.nl/) | [Open Source] *A memory scanner akin to Cheat Engine, but with different features and a cleaner UI.*
 **All-In-One** | [PINCE](https://github.com/korcankaraokcu/PINCE) | [Open Source] *A front-end/reverse engineering tool for the GNU Project Debugger ([GDB](https://www.gnu.org/software/gdb/)), focused on games. It's essentially a work-in-progress Cheat Engine for Linux/MacOS.*
-**All-In-One** | [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | [Open Source] *a software reverse engineering framework including a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. It is maintained by the NSA and requires Java 11.*
 **Disassembler/Debugger** | [x64dbg](https://x64dbg.com/) | [Open Source] *An x86 (32-bit)/x64 (64-bit) debugger for windows. Spiritual successor to [OllyDbg](http://www.ollydbg.de/).*
 **Graphics Debugger** | [RenderDoc](https://renderdoc.org/) | [Open Source] *A stand-alone graphics debugging tool that allows quick and easy single-frame capture and detailed introspection of any application using Vulkan, D3D11, OpenGL, and OpenGL ES or D3D12 across Windows 7-10, Linux, or Android. Overview video [here](https://www.youtube.com/watch?v=EMFG5wmng-M).*
 **Graphics Debugger** | [PIX](https://blogs.msdn.microsoft.com/pix/download/) | [Freeware] *Performance tuning and debugging for DirectX games on Windows and Xbox. Blog [here](https://blogs.msdn.microsoft.com/pix/); video tutorial playlist [here](https://www.youtube.com/watch?v=thiF3xKT_Qg&index=2&list=PLeHvwXyqearWuPPxh6T03iwX-McPG5LkB&t=0s).*
@@ -37,7 +34,6 @@ Tool Type | Tool/Link | Description
 **File Inspector** | [Exeinfo PE](http://exeinfo.atwebpages.com/) | [Freeware] *File packer/compressor detector which provides unpacking info and internal exe tools. A spiritual successor to [PEiD](https://www.aldeid.com/wiki/PEiD).*
 **.NET Deobfuscator/Unpacker** | [de4dot](https://github.com/0xd4d/de4dot) | [Open Source] *A .NET deobfuscator and unpacker written in C#. Most obfuscation from supported implementations can be completely restored (eg. string encryption), but symbol renaming is impossible to restore since the original names aren't (usually) part of the obfuscated assembly.*
 **Data Type/Structure Reconstructor** | [ReClassEx](https://github.com/dude719/ReClassEx) | [Open Source] *A tool that intellgently reconstructs data types. Based on the original [ReClass](https://github.com/CoolOppo/ReClass).*
-**Data Type/Structure Reconstructor** | [ReClass.NET](https://github.com/KN4CK3R/ReClass.NET) | [Open Source] *A .NET port of ReClass, with many additional features. Video tutorials [here](https://www.youtube.com/playlist?list=PLO246BmtoITanq3ygMCL8_w0eov4D8hjk).*
 **File Format Parser** | [QuickBMS](http://aluigi.altervista.org/quickbms.htm) | [Open Source] *An extensive tool that parses file formats and extracts/reimports files and archives.*
 **File Format Parser** | [UABE](https://github.com/DerPopo/UABE) | [Freeware] *An editor for Unity 3.4+/4/5/2017/2018 .assets and AssetBundle files. It can create standalone mod installers from changes to .assets and/or bundles. Type information extracted from Unity is used in order to generate text representations of various asset types*
 **File Format Parser** | [DevXUnity-Unpacker](http://devxdevelopment.com/UnityUnpacker) | [Commercial] *An extensive tool which allows full asset extraction and manipulation from Unity games even allowing full exports of detailed scenes from packed files.*
@@ -55,7 +51,6 @@ Tool Type | Tool/Link | Description
 Title/Link | Description
 ---- | ----
 [Kaitai Struct](http://kaitai.io/) | A declarative language used to describe various binary data structures in files or memory (binary file formats, network stream packet formats, etc.). Allows for development of custom parsers for binary structures.
-[Frida](http://frida.re/) | Allows you to inject snippets of JavaScript or your own library into native apps on Windows, macOS, GNU/Linux, iOS, Android, and QNX. Also provides custom, modifiable tools built on top of the Frida API. Beginner's tutorial [here](https://vicarius.io/blog/wtf-is-frida/).
 [Volatility](https://github.com/volatilityfoundation/volatility) | An open source, advanced memory forensics framework used for the extraction of digital artifacts from volatile memory (RAM) dumps. Great for exploring RAM dumps of running games!
 [Rekall](http://www.rekall-forensic.com/) | A powerful memory analysis framework. Consider taking a look at [their memory analysis workshop](http://memory-analysis.rekall-forensic.com/www/TOC/), which explains memory and memory analysis in great detail, as well as how to utilize their framework.
 [angr](https://github.com/angr/angr) | A suite of python libraries that let you load a binary and perform a whole host of tasks: Disassembly and intermediate-representation lifting, program instrumentation, symbolic execution, control-flow analysis, data-dependency analysis, value-set analysis (VSA), and more.
@@ -75,7 +70,6 @@ Title/Link | Description
 [Noriben](https://github.com/Rurik/Noriben) | A Python-based script that works in conjunction with [Windows Sysinternals Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) to automatically collect, analyze, and report (via a simple text file) on an application or game's activities.
 [CyberChef](https://github.com/gchq/CyberChef) | A simple, intuitive web app for carrying out various "cyber" operations, including simple encoding like XOR or Base64, more complex encryption like AES, DES and Blowfish, creating binary and hexdumps, compression and decompression of data, calculating hashes and checksums, IPv6 and X.509 parsing, changing character encodings, and much more. An in-browser, live demo can be found [here](https://gchq.github.io/CyberChef/).
 [Deviare API Hook](https://www.nektra.com/products/deviare-api-hook-windows/) | A professional open source hooking engine for instrumenting arbitrary Win32 functions, COM objects, and functions which symbols are located in program databases (PDBs). It can intercept unmanaged code in 32-bit and 64-bit applications.
-[Microsoft Detours](https://www.microsoft.com/en-us/research/project/detours/) | A software package for re-routing Win32 APIs underneath applications. 32-bit-only version is free.
 [Deviare In-Process](https://www.nektra.com/products/deviare-api-hook-windows/deviare-in-process/) | A code interception engine for Windows (a free-for-non-commercial-use alternative to Microsoft Detours). This library is coded in C++ and provides all the facilities required to instrumenting binary libraries during runtime. Supports x86 and x64 applications.
 [ReShade](https://github.com/crosire/reshade) | An advanced, fully generic post-processing injector for games and video software. Contains a wealth of information for how to intercept DX/OpenGL APIs and inject custom code (e.g. call your own code at present time when a frame is rendered).
 [Injectable Generic Camera System](https://github.com/FransBouma/InjectableGenericCameraSystem) | Used for creating custom camera tools in games. Also contains small tools, like a custom DLL injector to bypass Windows Defender detection.
@@ -109,7 +103,6 @@ Title/Link | Description
 [Reverse Engineering Visual Novels 101, Part 2](https://hackernoon.com/reverse-engineering-visual-novels-101-part-2-9258f547262a) | A detailed tutorial on using [Kaitai Struct](http://kaitai.io/) to reverse engineer unknown formats (continued from above).
 [Exploiting Game Engines for Fun and Profit](http://revuln.com/files/Ferrante_Auriemma_Exploiting_Game_Engines.pdf) | This slide deck shows you methods to exploit game engines, effictively discovering attack vectors that will work across multiple games using the same engine.
 [Hooking LuaJIT](https://nickcano.com/hooking-luajit/) | A blog post demonstrating how hooking into a game's scripting engine (in this case, LuaJIT) can expedite the reversing process and enable side-loading of custom scripts.
-[Reversing LoL Client w/ Custom API Monitor Definitions](https://nickcano.com/reversing-league-of-legends-client/) | This quick blog post shows how [custom rules](https://github.com/nickcano/LibCEF-API-Monitor-Definitions/blob/master/LibCEF.xml) for [API Monitor](http://www.rohitab.com/apimonitor) can be utilized to aid in the reversing process.
 [Reverse Engineering Animal Crossing's Developer Mode](https://jamchamb.github.io/2018/06/09/animal-crossing-developer-mode.html) | A blog post that documents the process of using a disassembler and debugger to find and reverse engineer developer debug features that were left in Animal Crossing for the GameCube.
 [Reverse Engineering the Rendering of The Witcher 3](http://astralcode.blogspot.com/2017/09/reverse-engineering-rendering-of.html) | A multipart series of blog posts exploring various rendering methods used in The Witcher 3, and reversing them to modify shader bytecode.
 [GTA V - Graphics Study](http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/) | A 3-part deep dive into graphics techniques used in GTA V. Also see his studies of [DOOM (2016)](http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/) and [Metal Gear Solid V](http://www.adriancourreges.com/blog/2017/12/15/mgs-v-graphics-study/).
@@ -156,9 +149,6 @@ Title/Link | Description
 
 Title/Link | Description
 ---- | ----
-[REGames Subreddit](https://www.reddit.com/r/REGames/) | A subreddit dedicated to reverse engineering video games.
-[Reverse Engineering Subreddit](https://www.reddit.com/r/ReverseEngineering) | A subreddit dedicated to reverse engineering in general. Game-related submissions appear quite frequently.
-[Reverse Engineering on StackExchange](https://reverseengineering.stackexchange.com/search?tab=newest&q=Game) | A link to all game-related discussions (sorted by newest) on the RE StackExchange site.
 [Cheat Engine Forum (CEF)](http://forum.cheatengine.org/) | The official forum for Cheat Engine.
 [FearLess Cheat Engine](http://fearlessrevolution.com/) | Cheat Engine cheat tables, discussions, and tutorials for game hacking.
 [Guided Hacking](https://guidedhacking.com/) | Discussion of multiplayer and single-player game hacks and cheats.
@@ -176,4 +166,5 @@ Title/Link | Description
 [Pwn Adventure 3: Pwnie Island](http://pwnadventure.com/) | A first-person, open-world MMORPG developed specifically to be hacked!
 [Minetest](http://www.minetest.net/) | An open source, multiplayer voxel-based game and game engine. (A Minecraft clone, basically.)
 [AssaultCube](https://assault.cubers.net/) | An open source, multiplayer, FPS.
+
 [The Ultimate Online Game Hacking Resource](https://github.com/dsasmblr/hacking-online-games)
