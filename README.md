@@ -1,7 +1,7 @@
 ## [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking/)
 A curated list of tools, tutorials, and more for reverse engineering video games!
 
-### Game Hacking Tools (Disassemblers, Debuggers, Hex Editors, Unpackers, etc)
+### Game Hacking Tools (Disassemblers, Debuggers, etc) 
 
 Link | Description
 ---- | ----
@@ -12,14 +12,12 @@ Link | Description
 [Ninja Ripper](https://gamebanana.com/tools/5638) | [Freeware] *Utility to extract/rip 3D models (meshes), textures, and shaders directly from the running game.*
 [dnSpyEX](https://github.com/dnSpyEx/dnSpy) | [Open Source] *A .NET assembly editor and debugger, including support for Unity games (Mono binaries). New versions allow direct editing of compiled code as though it were an IDE.*
 [JByteMod](https://github.com/GraxCode/JByteMod-Beta) | [Open Source] *Used to edit the binary of java games/apps. It is able to decompile, analyze and compile bytecode. Generally more reliable than Recaf and has more features.*
-[Trillix](http://www.flash-decompiler.com/) | [Commercial] *Converts SWF to FLA and decompiles Flash (supports Flash up to CS6 & CC and ActionScript 3.0).*
 [Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) | [Open Source] *An all-in-one Java deobfuscator which will deobfuscate code obfuscated by most obfuscators available on the market. Accompanying GUI [here](https://github.com/java-deobfuscator/deobfuscator-gui).*
 [Fiddler](https://www.telerik.com/fiddler) | [Freeware] *A powerful web debugging proxy for any browser, system, or platform.*
 [Wireshark](https://www.wireshark.org/) | [Freeware] *A robust network protocol analyzer.*
 [Process Hacker](https://wj32.org/processhacker/index.php) | [Open Source] *A powerful, multi-purpose tool that helps you monitor system resources and debug software.*
 [CDA: Code Dynamic Analysis](http://split-code.com/cda.html) | [Freeware] *Tool for recording, filtering, and hacking function calls within applications or games. x86 support only. Previously open-source and known as [FunctionHacker](https://github.com/glmcdona/FunctionHacker). Tutorial video [here](https://www.youtube.com/watch?v=P0UXR861WYM).*
 [API Monitor](http://www.rohitab.com/apimonitor) | [Freeware] *Allows you to monitor and control API calls made by applications and services.*
-[SpyStudio](https://www.nektra.com/products/spystudio-api-monitor/) | [Freeware] *Shows and interprets calls, displaying the results in a structured way. Details registry keys and files that an application uses, COM objects, windows the application has created, errors and exceptions, and more. Tutorials [here](http://whiteboard.nektra.com/spystudio-2-0-quickstart).*
 [Exeinfo PE](http://exeinfo.atwebpages.com/) | [Freeware] *File packer/compressor detector which provides unpacking info and internal exe tools. A spiritual successor to [PEiD](https://www.aldeid.com/wiki/PEiD).*
 [de4dot](https://github.com/0xd4d/de4dot) | [Open Source] *A .NET deobfuscator and unpacker written in C#. Most obfuscation from supported implementations can be completely restored (eg. string encryption), but symbol renaming is impossible to restore since the original names aren't (usually) part of the obfuscated assembly.*
 [ReClassEx](https://github.com/dude719/ReClassEx) | [Open Source] *A tool that intellgently reconstructs data types. Based on the original [ReClass](https://github.com/CoolOppo/ReClass).*
