@@ -7,7 +7,7 @@
 </div>
 
 # [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking/)
-***A curated list of tools, tutorials, and much more for reverse engineering video games!***
+***A curated list of tools, tutorials, and more for reverse engineering video games!***
 
 ### Game Hacking Tools (Disassemblers, Debuggers, Hex Editors, Unpackers, etc)
 
