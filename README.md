@@ -135,7 +135,7 @@ Link | Description
 ---- | ----
 [Cheat Engine Forum (CEF)](http://forum.cheatengine.org/) | The official forum for Cheat Engine.
 [FearLess Cheat Engine](http://fearlessrevolution.com/) | Cheat Engine cheat tables, discussions, and tutorials for game hacking.
-~[Guided Hacking](https://guidedhacking.com/)~ | PAY2READAFORUMLOL* of game hacks and cheats.
+~[Guided Hacking](https://guidedhacking.com/)~ | PAY2READAFORUMLOL* of rehashed game hacks and cheats.
 [UnKnoWnCheaTs Forum](https://unknowncheats.me/) | Discussion of multiplayer game hacks and cheats.
 [MPGH (Multi-Player Game Hacking) Forum](http://www.mpgh.net) | Discussion of multiplayer game hacks and cheats.
 [ElitePVPers](https://www.elitepvpers.com/) | Discussion of MMO hacks, bots, cheats, guides and more.
