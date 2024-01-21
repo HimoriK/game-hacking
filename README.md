@@ -13,19 +13,15 @@ Link | Description
 [dnSpyEX](https://github.com/dnSpyEx/dnSpy) | [Open Source] *A .NET assembly editor and debugger, including support for Unity games (Mono binaries). New versions allow direct editing of compiled code as though it were an IDE.*
 [JByteMod](https://github.com/GraxCode/JByteMod-Beta) | [Open Source] *Used to edit the binary of java games/apps. It is able to decompile, analyze and compile bytecode. Generally more reliable than Recaf and has more features.*
 [Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) | [Open Source] *An all-in-one Java deobfuscator which will deobfuscate code obfuscated by most obfuscators available on the market. Accompanying GUI [here](https://github.com/java-deobfuscator/deobfuscator-gui).*
-[Fiddler](https://www.telerik.com/fiddler) | [Freeware] *A powerful web debugging proxy for any browser, system, or platform.*
-[Wireshark](https://www.wireshark.org/) | [Freeware] *A robust network protocol analyzer.*
 [Process Hacker](https://wj32.org/processhacker/index.php) | [Open Source] *A powerful, multi-purpose tool that helps you monitor system resources and debug software.*
 [CDA: Code Dynamic Analysis](http://split-code.com/cda.html) | [Freeware] *Tool for recording, filtering, and hacking function calls within applications or games. x86 support only. Previously open-source and known as [FunctionHacker](https://github.com/glmcdona/FunctionHacker). Tutorial video [here](https://www.youtube.com/watch?v=P0UXR861WYM).*
 [API Monitor](http://www.rohitab.com/apimonitor) | [Freeware] *Allows you to monitor and control API calls made by applications and services.*
 [Exeinfo PE](https://github.com/ExeinfoASL/ASL) | [Freeware] *File packer/compressor detector which provides unpacking info and internal exe tools. A spiritual successor to [PEiD](https://www.aldeid.com/wiki/PEiD).*
-[de4dot](https://github.com/0xd4d/de4dot) | [Open Source] *A .NET deobfuscator and unpacker written in C#. Most obfuscation from supported implementations can be completely restored (eg. string encryption), but symbol renaming is impossible to restore since the original names aren't (usually) part of the obfuscated assembly.*
 [ReClassEx](https://github.com/dude719/ReClassEx) | [Open Source] *A tool that intellgently reconstructs data types. Based on the original [ReClass](https://github.com/CoolOppo/ReClass).*
 [QuickBMS](http://aluigi.altervista.org/quickbms.htm) | [Open Source] *An extensive tool that parses file formats and extracts/reimports files and archives.*
 [MultiEx Commander](http://multiex.xentax.com/) | [Freeware] *Allows you to use and create scripts to extract/import files from/to game resource archives.*
 [Binwalk](https://github.com/ReFirmLabs/binwalk) | [Open Source] *Binwalk is a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images. Also extremely useful for game analysis (finding/extracting images from resources, etc.).*
 [YARA](https://github.com/virustotal/yara) | [Open Source] *Create descriptions of, and rules based on, textual or binary patterns. Excellent for creating custom rules for tasks like identifying resources in a game, game engine and version being used for a game, etc. See [YARA GUI](https://github.com/sigint9/yaragui) for a Windows GUI front-end. Also, see [yarGen](https://github.com/Neo23x0/yarGen) for a YARA rule generator.*
-[Xenos](https://github.com/DarthTon/Xenos) | [Open Source] *A Windows DLL injector, based on the [Blackbone library](https://github.com/DarthTon/Blackbone).*
 [Compiler Explorer](https://github.com/mattgodbolt/compiler-explorer) | [Open Source] *Run compilers interactively from your web browser and interact with the assembly!*
 [PSR (Pointer Sequence Reverser)](https://github.com/nccgroup/psr/) | [Open Source] *Traces instructions executed prior to reading/writing from/to the provided address of a data member or object, then highlights relevant instructions, identifies vtable pointers, and more. Relevant whitepaper [here](https://www.nccgroup.trust/us/our-research/automated-reverse-engineering-of-relationships-between-data-structures-in-c-binaries/?research=Whitepapers).*
 [XenoScan](https://github.com/nickcano/XenoScan) | [Open Source] *Lua scriptable memory scanner written in C++. Supports complex scanning, custom structures, and automatic detection of complex structures (linked lists, binary tress, class instances, etc). Expandable with support for emulators. DEFCON Slides [here](https://github.com/nickcano/XenoScanSlides).*
@@ -88,7 +84,6 @@ Title/Link | Description
 [Exploiting Game Engines for Fun and Profit](http://revuln.com/files/Ferrante_Auriemma_Exploiting_Game_Engines.pdf) | This slide deck shows you methods to exploit game engines, effictively discovering attack vectors that will work across multiple games using the same engine.
 [Hooking LuaJIT](https://nickcano.com/hooking-luajit/) | A blog post demonstrating how hooking into a game's scripting engine (in this case, LuaJIT) can expedite the reversing process and enable side-loading of custom scripts.
 [Reverse Engineering Animal Crossing's Developer Mode](https://jamchamb.github.io/2018/06/09/animal-crossing-developer-mode.html) | A blog post that documents the process of using a disassembler and debugger to find and reverse engineer developer debug features that were left in Animal Crossing for the GameCube.
-[Reverse Engineering the Rendering of The Witcher 3](http://astralcode.blogspot.com/2017/09/reverse-engineering-rendering-of.html) | A multipart series of blog posts exploring various rendering methods used in The Witcher 3, and reversing them to modify shader bytecode.
 [GTA V - Graphics Study](http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/) | A 3-part deep dive into graphics techniques used in GTA V. Also see his studies of [DOOM (2016)](http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/) and [Metal Gear Solid V](http://www.adriancourreges.com/blog/2017/12/15/mgs-v-graphics-study/).
 [Fixing a Bug in an 18 Year Old Shockwave Game](https://mattbruv.github.io/ccsr-bugfix/) | A journey into finding and patching one byte to fix a nagging bug in an old Shockwave game.
 [Game Hacking: Hammerwatch Invincibility](http://www.somersetrecon.com/blog/2018/7/25/game-hacking-hammerwatch-invincibility) | A case study using dnSpy to hack a Mono-based game.
@@ -111,7 +106,6 @@ Title/Link | Description
 ---- | ----
 [Cheat Engine Tutorial: Demystifying Memory, AutoAssembler Scripts, Disassembler/Memory Viewer, and More](https://www.youtube.com/watch?v=L1zfhmTyVGo) | A deep dive into memory, scripting, and disassembly in relation to utilizing Cheat Engine.
 [How to Create a No-Clip Hack via Cheat Engine](https://www.youtube.com/watch?v=vXoV3fQeRv4) | An in-depth tutorial on approaches to creating no-clip hacks using Cheat Engine.
-[Introduction to IDA Pro (x86/x64, via Windows)](https://www.youtube.com/watch?v=cGDcTSCB7y4) | A well-paced, cursory overview of IDA Pro. It's given in the context of malware analysis, but everything you learn can be directly applied to game hacking.
 [Motherboard Livestream Archive: Researcher Cracks Elder Scrolls Online, Dark Age of Camelot, and Wildstar](https://www.youtube.com/embed/iYTCBPUn98c?start=186&end=6620) | Adrian Bednarek, better known as "Manfred", demonstrates the MMORPG hacks he wanted to show but couldn't during [his DEF CON 25 presentation](https://tknk.io/DScz). This is a rare glimpse into the tools, thoughts, and approaches of a professional online game hacker!
 [Hacking Games in a Hacked Game](https://vimeo.com/132900706) | This video discusses goes over the results of those who solved CTF challenges in Pwn Adventure 3 at [Ghost in the Shellcode 2015](http://ghostintheshellcode.com/). Slides [here](https://github.com/Vector35/HackingGames).
 [The Security of Classic Game Consoles](https://www.youtube.com/watch?v=jkl5NJrRKgA) | A presentation demonstrating the technical details of what went into protecting the security of classic game consoles, as well as how those protections were broken.
@@ -119,23 +113,12 @@ Title/Link | Description
 [Sega Saturn - Cracked After 20 Years](https://www.youtube.com/watch?v=jOyfZex7B3E) | A detailed look into what it took to finally defeat Sega Saturn's protection.
 [GDC 2018: John McDonald (Valve) - Using Deep Learning to Combat Cheating in CSGO](https://www.youtube.com/watch?v=ObhK8lUfIlc) | A video discussing how Valve uses deep learning to thwart certain types of cheating in CSGO.
 
-### Books
-
-Link | Description
----- | ----
-[Game Hacking](https://www.nostarch.com/gamehacking) | *Game Hacking* shows programmers how to dissect computer games and create bots.
-[Attacking Network Protocols](https://www.nostarch.com/networkprotocols) | *Attacking Network Protocols* is a deep-dive into network vulnerability discovery.
-[Practical Packet Analysis, 3rd Edition](https://www.nostarch.com/packetanalysis3) | *Practical Packet Analysis, 3rd Ed.* teaches you how to use Wireshark for packet capture and analysis.
-[Exploiting Online Games: Cheating Massively Distributed Systems](https://www.amazon.com/Exploiting-Online-Games-Massively-Distributed/dp/0132271915/) | This book takes a close look at security problems associated with advanced, massively distributed software in relation to video games.
-[Game Programming Patterns](https://github.com/munificent/game-programming-patterns) | A collection of game patterns that make code cleaner, easier to understand, and faster. A great reference for seeing forward engineering representations of what you discover while reverse engineering games!
-
 ### Game Hacking Sites
 
 Link | Description
 ---- | ----
 [Cheat Engine Forum (CEF)](http://forum.cheatengine.org/) | The official forum for Cheat Engine.
 [FearLess Cheat Engine](http://fearlessrevolution.com/) | Cheat Engine cheat tables, discussions, and tutorials for game hacking.
-~[Guided Hacking](https://guidedhacking.com/)~ | PAY2READAFORUMLOL* of rehashed game hacks and cheats.
 [UnKnoWnCheaTs Forum](https://unknowncheats.me/) | Discussion of multiplayer game hacks and cheats.
 [MPGH (Multi-Player Game Hacking) Forum](http://www.mpgh.net) | Discussion of multiplayer game hacks and cheats.
 [ElitePVPers](https://www.elitepvpers.com/) | Discussion of MMO hacks, bots, cheats, guides and more.
